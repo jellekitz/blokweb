@@ -38,7 +38,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Tot nu toe ging alles vrij soepel. Ik heb wel gemerkt dat ik het moeilijk vind om de opdrachten te maken terwijl ik eigenlijk verder wil met mijn website.
+
+Ik probeer nu delen te maken van de opdracht, als ik vast loop dan pak ik uiteraard de odprachten er bij.
 
 **Screenshot(s):**
 
