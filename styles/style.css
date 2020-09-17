@@ -20,10 +20,20 @@ h2 {
 	font-size: 1.5em;
 }
 
+strong{
+	font-weight: bold;
+	color: #000;
+}
+
 p {
 	font-family: 'Montserrat', sans-serif;
 	color: #635f5c;
 	font-size: 0.9em;
+}
+
+a{
+	font-weight: bold;
+	color: #333;
 }
 
 span {
@@ -31,6 +41,14 @@ span {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.81em;
 	font-weight: 700;
+}
+
+main{
+	padding: 20px;
+}
+
+main h2{
+	width: 100%;
 }
 
 img{
@@ -55,6 +73,10 @@ header p:first-child{
 	margin: 0;
 	padding: 0.625em;
 	text-align: center;
+}
+
+section{
+	padding: 16px;
 }
 
 header #icons a{
@@ -94,7 +116,7 @@ input{
 	padding: 20px 0;
 }
 
-#banner h1,h2{
+#banner h1{
 	margin: 0;
 	color: #fff;
 }
@@ -102,12 +124,79 @@ input{
 #banner h2{
 	font-size: 0.8125em;
 	text-align: center;
+	margin-top: 60px;
+	color: #fff;
 }
 
 #banner h1{
 	text-align: center;
 	padding: 10px 20px;
 }
+
+#banner a{
+	padding: 12px 16px;
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: 20px 110px 0px 110px;
+}
+
+#banner-stroke{
+	background-color: #f1e6d9;
+	margin: -4px 0 0 0;
+	padding: 8px 16px;
+}
+
+#banner-stroke a{
+	font-weight: bold;
+	color: #333;
+}
+
+#categorieen h2{
+	text-align: center;
+}
+
+#categorieen ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#categorieen ul li{
+	list-style: none;
+	width: 47%;
+	margin: 5px 5px;
+}
+
+#categorieen ul li a{
+	display: block;
+	padding: 10px 0;
+	border: 1px solid #000;
+	color: #000;
+	text-decoration: none;
+	font-weight: 900;
+	text-align: center;
+}
+
+/* Footer */
+
+footer{
+	background-color: #faf7f3;
+}
+
+footer section:nth-child(2){
+	background-color: #fff;
+}
+
+footer p{
+	color: #3e3e3e;
+	font-size: 13px;
+}
+
 
 
 

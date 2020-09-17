@@ -44,11 +44,23 @@ Ik probeer nu delen te maken van de opdracht, als ik vast loop dan pak ik uitera
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![](images/homepage-header.png)
+
+![](images/homepage-middle.png)
+
+![](images/homepage-footer.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- Hoe we kunnen zorgen dat website zo responsive mogelijk worden?
+
+- Moeten we het hamburger menu laten werken?
+
+- Hoe kan je met 2 html pagina's en 1 css ervoor zorgen dat de nth-of-typ(n) goed werkt, want bvb de eerste p op de ene html moet bold worden, maar de eerste p op de andere html moet niet bold worden.
+
+- Hoe kan je een carousel maken
+
+- 
 
 ### Verslag van meeting
 
