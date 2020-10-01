@@ -30,7 +30,31 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Geen problemen eigenlijk.
+
+
+### Agenda voor meeting
+
+Carrousel (css/html of js, beste optie?) 
+Css image slider animation 
+Text responsive maken- fluid typografie of @mediaQueries? 
+:hover bug (Jelle)
+slider van tekst en dingen toevoegen in winkelmandje (Ysabella)
+
+**Screenshot(s):**
+
+![](images/mobile-top.png)
+
+![](images/mobile-middle.png)
+
+![](images/desktop-top.png)
+
+![](images/desktop-middle.png)
+
+![](images/desktop-bottom.png)
+
 
 
 
