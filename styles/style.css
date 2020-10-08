@@ -35,6 +35,8 @@ p {
 a{
 	font-weight: bold;
 	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875em;
 }
 
 span {
@@ -46,6 +48,10 @@ span {
 
 img{
 	width: 100%;
+}
+
+.none-2{
+	display: none;
 }
 
 /* Header */
@@ -105,7 +111,7 @@ img{
 
 /* Icon area */
 
-.homepage header div#content-header{
+header div#content-header{
 	background-color: #fff;
 	display: flex;
 	flex-wrap: wrap;
@@ -319,8 +325,11 @@ form button{
 
 /* Trending */
 
-.homepage > main{
+main{
 	padding: 20px 16px;
+}
+
+.homepage > main{
 	overflow-x: hidden;
 }
 
@@ -345,11 +354,11 @@ form button{
 	transition: transform .2s;
 }
 
-.homepage > main article:hover{
+.homepage > main div article a:hover{
 	transform: scale(1.02);
 }
 
-.homepage > main article:last-of-type{
+.homepage > main div article a:last-of-type{
 	margin-right: 0;
 }
 
@@ -379,6 +388,40 @@ form button{
     z-index: 0;
     background-image: linear-gradient(180deg,transparent,#000);
     opacity: .3;
+}
+
+.overview main a{
+	padding: 10px 16px;
+	display: block;
+	border: 1px solid #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+.overview main h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+.overview main div:nth-of-type(2) div:nth-of-type(1) p:first-of-type{
+	font-size: 0.75em;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.overview main div:nth-of-type(2) div:nth-of-type(2){
+	margin: 20px 0 0 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10px;
+}
+
+.overview main  div:nth-of-type(2) div:nth-of-type(2) h2{
+	font-size: 1.25em;
+}
+
+.overview main  div:nth-of-type(2) div:nth-of-type(2) p{
+	text-align: left;
 }
 
 /* Selectie */
@@ -580,6 +623,10 @@ footer p{
   		overflow-y: hidden;
   	}
 
+  	.homepage main div article{
+  		margin-right: 0;
+  	}
+
   	.homepage main article img{	
 		width: 100%; 
     	height: 100%; 
@@ -608,6 +655,19 @@ footer p{
 		max-width: 100%;
   	}
 
+  	.none-2{
+		display: block;
+	}
+
+	.overview main{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+
+	.overview main a{
+		display: none;
+	}
+
 }
 
 @media only screen and (min-width: 769px) {
@@ -618,7 +678,7 @@ footer p{
 
   	/* Header */
 
-	.homepage header div#content-header{
+	header div#content-header{
 		display: grid;
 		grid-template-columns: 1fr 2fr 1fr;
 		padding: 17px 10px;
@@ -693,6 +753,12 @@ footer p{
 
 	header nav ul li a{
 		text-decoration: none;
+	}
+
+	.overview main div:nth-of-type(2) div:nth-of-type(2){
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 10px;
 	}
 
 }

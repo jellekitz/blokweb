@@ -24,7 +24,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Geen problemen eigenlijk.
+
+
+### Agenda voor meeting
+
+- Carousel met overflow-x: scroll: 
+- Hartje dat vult als je er op klikt 
+- Mag button hover in javascript? Of moet het in CSS
+- Uitklapbaar menu
+- Hij doet het niet op github maar wel normaal gesproken
+
+**Screenshot(s):**
+
+![](images/new-page-mobile.png)
+
+![](images/new-page-tablet.png)
+
+![](images/new-page-desktop.png)
 
 
 
@@ -37,11 +56,11 @@ Geen problemen eigenlijk.
 
 ### Agenda voor meeting
 
-Carrousel (css/html of js, beste optie?) 
-Css image slider animation 
-Text responsive maken- fluid typografie of @mediaQueries? 
-:hover bug (Jelle)
-slider van tekst en dingen toevoegen in winkelmandje (Ysabella)
+- Carrousel (css/html of js, beste optie?) 
+- Css image slider animation 
+- Text responsive maken- fluid typografie of @mediaQueries? 
+- :hover bug (Jelle)
+- slider van tekst en dingen toevoegen in winkelmandje (Ysabella)
 
 **Screenshot(s):**
 
