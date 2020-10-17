@@ -686,11 +686,13 @@ footer > section:nth-child(1) > p::before{
 		font-size: 2.5em;
 	}
 
+	/* Header */
+
 	header div#content-header{
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
-}
+	}
 
   	/* Banner */
 
@@ -892,10 +894,6 @@ footer > section:nth-child(1) > p::before{
 }
 
 @media only screen and (min-width: 769px) {
-
- 	/* body {
-    	background-color: purple;
-  	}*/
 
   	/* Header */
 
