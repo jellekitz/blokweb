@@ -6,20 +6,55 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. alle afbeeldingen zijn van: https://www.debijenkorf.nl/
+2. iconen inspiratie is van: https://www.flaticon.com zelf in illustrator aangepast
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Het project ging eigenlijk vrij vlot. Ik heb mezelf opnieuw uigedaagd om het "iets" anders aan te pakken dan ik normaal zou doen. Soms was dit wel eens lastig maar ik ben er eigenlijk vrijwel altijd alleen uitgekomen op wat enkele vragen aan Sam na. 
+
+Als ik meer tijd gehad zou hebben dan had ik misschien nog wat meer van de surface plane uitgewerkt maar aangezien mijn focus op responsive lag (en ik eigenlijk ook veel van de surface plane gedaan heb) heb ik het hier bij gelaten zodat ik kan aantonen dat ik beide aan kan :).
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+desktop home
 
+![](images/desktop-home-1.png)
+
+![](images/desktop-home-2.png)
+
+![](images/desktop-home-3.png)
+
+![](images/desktop-home-4.png)
+
+![](images/desktop-home-5.png)
+
+![](images/desktop-home-6.png)
+
+desktop truien
+
+![](images/desktop-truien-1.png)
+
+![](images/desktop-truien-2.png)
+
+mobile home
+
+![](images/mobile-home-1.png)
+
+![](images/mobile-home-2.png)
+
+![](images/mobile-home-3.png)
+
+![](images/mobile-home-4.png)
+
+
+mobile truien
+
+![](images/mobile-truien-1.png)
+
+![](images/mobile-truien-2.png)
 
 
 ## Voortgang 3 (week 6)
@@ -51,7 +86,7 @@ Geen problemen eigenlijk.
 
 ### Stand van zaken
 
-Geen problemen eigenlijk.
+Geen problemen eigenlijk op de bug na.
 
 
 ### Agenda voor meeting
@@ -102,12 +137,6 @@ Ik probeer nu delen te maken van de opdracht, als ik vast loop dan pak ik uitera
 - Hoe kan je met 2 html pagina's en 1 css ervoor zorgen dat de nth-of-typ(n) goed werkt, want bvb de eerste p op de ene html moet bold worden, maar de eerste p op de andere html moet niet bold worden.
 
 - Hoe kan je een carousel maken
-
-- 
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
 
 
 
