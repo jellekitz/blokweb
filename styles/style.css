@@ -6,7 +6,7 @@
 html, body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -90,7 +90,7 @@ img{
 
 .fullscreen-navigation header{
 	background-color: #fff;
-	padding: 24px;
+	padding: 1.5em;
 }
 
 .fullscreen-navigation header img{
@@ -101,15 +101,15 @@ img{
 .fullscreen-navigation form{
 	display: flex;
 	flex-basis: 100%;
-	padding: 20px 24px;
+	padding: 1.25em 1.5em;
 	background-color: #faf7f3;
 }
 
 .fullscreen-navigation form input{
 	width: 100%;
 	min-height: 40px;
-	margin: 0 0 0 5px;
-	padding: 0 15px;
+	margin: 0 0 0 0.313em;
+	padding: 0 0.938em;
 	border-radius: 0;
 	border: 2px solid #e6e6e6;
 }
@@ -120,9 +120,9 @@ img{
 	background-image: url('../images/searchIcon.png');
 	background-position: center center;
     background-repeat: no-repeat;
-    background-size: 16px 16px;
+    background-size: 1em 1em;
     width: 50px;
-    margin-left: -2px;
+    margin-left: -0.125em;
 }
 
 .fullscreen-navigation nav ul{
@@ -139,7 +139,7 @@ img{
 }
 
 .fullscreen-navigation nav ul li a{
-	padding: 16px 16px 16px 24px;
+	padding: 1em 1em 1em 1.5em;
 	display: block;
 	border-bottom: 1px solid #e1ddd9;
 	text-decoration: none;
@@ -149,8 +149,8 @@ img{
 
 .close{
   position: absolute;
-  right: 24px;
-  top: 24px;
+  right: 1.5em;
+  top: 1.5em;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -158,7 +158,7 @@ img{
 
 .close:before, .close:after {
   position: absolute;
-  left: 15px;
+  left: 0.938em;
   content: ' ';
   height: 30px;
   width: 2px;
@@ -178,7 +178,7 @@ header div#content-header{
 	background-color: #fff;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 10px 20px;
+	padding: 0.625em 1.25em;
 	-webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.2);
@@ -196,7 +196,7 @@ header div#content-header{
 }
 
 section{
-	padding: 20px 16px;
+	padding: 1.25em 1em;
 }
 
 header{
@@ -207,20 +207,20 @@ header{
 
 header #content-header div:nth-child(2){
 	display: flex;
-	margin: 5px 0;
+	margin: 0.313em 0;
 }
 
 header #content-header div a{
 	display: block;
 	width: 24px;
 	height: 24px;
-	margin: 0 0 0 1.5rem;
+	margin: 0 0 0 1.5em;
 }
 
 header #content-header div a:first-child{
 	width: 24px;
 	height: 24px;
-	margin: 0 0 0 1.5rem;
+	margin: 0 0 0 1.5em;
 }
 
 header #content-header a:first-child{
@@ -232,24 +232,26 @@ header #content-header a:first-child{
 header #content-header div:nth-of-type(2){
 	display: flex;
 	flex-basis: 100%;
-	margin: 10px 0;
+	margin: 0.625em 0;
 }
 
-header #content-header div:nth-of-type(2) div{
-	margin: auto 16px auto 0;
+header #content-header div:nth-of-type(2) button:first-child{
+	margin: auto 1em auto 0;
 	cursor: pointer;
+	background-color: transparent;
+	border: 0;
 }
 
-header #content-header div:nth-of-type(2) div span{
+header #content-header div:nth-of-type(2) button:first-child span{
 	background-color: #000;
     height: 2px;
     width: 22px;
-    margin: 0 0 4px 0;
+    margin: 0 0 0.25em 0;
     transition: transform .3s;
     display: block;
 }
 
-header #content-header div:nth-of-type(2) div p{
+header #content-header div:nth-of-type(2) button:first-child p{
 	font-size: 7px;
 	font-weight: bold;
 	color: #000;
@@ -259,7 +261,7 @@ header #content-header div:nth-of-type(2) div p{
 header #content-header div:nth-of-type(2) form{
 	display: flex;
 	flex-basis: 100%;
-	margin: 10px 0;
+	margin: 0.625em 0;
 }
 
 header #content-header div:nth-of-type(2) form input{
@@ -277,7 +279,7 @@ header #content-header div:nth-of-type(2) form button{
 	background-image: url('../images/searchIcon.png');
 	background-position: center center;
     background-repeat: no-repeat;
-    background-size: 16px 16px;
+    background-size: 1em 1em;
     width: 50px;
     margin-left: -2px;
 }
@@ -298,7 +300,9 @@ header #content-header div:nth-of-type(2) form button{
 
 #banner > div{
 	position: absolute;
-	bottom: 20px;
+	bottom: 1.25em;
+	display: flex;
+	flex-direction: column;
 }
 
 #banner::after{
@@ -313,40 +317,38 @@ header #content-header div:nth-of-type(2) form button{
     	opacity: .3;
   	}
 
-#banner h1{
-	margin: 0;
-	color: #fff;
-	z-index: 1;
-	position: relative;
-}
-
 #banner h2{
 	font-size: 0.8125em;
 	text-align: center;
 	color: #fff;
 	z-index: 1;
 	position: relative;
+	order: 1;
 }
 
 #banner h1{
 	text-align: center;
-	padding: 10px 20px;
+	margin: 0;
+	color: #fff;
+	padding: 0.625em 1.25em;
 	z-index: 1;
 	position: relative;
+	order: 2;
 }
 
 #banner a{
-	padding: 12px 16px;
+	padding: 0.750em 1em;
 	background-color: #fff;
 	color: #000;
 	text-decoration: none;
 	display: block;
 	text-align: center;
-	margin: 20px auto 0 auto;
+	margin: 1.25em auto 0 auto;
     max-width: 200px;
 	transition: box-shadow 575ms ease, color 200ms ease;
 	z-index: 1;
 	position: relative;
+	order: 3;
 }
 
 #banner a:hover{
@@ -356,7 +358,7 @@ header #content-header div:nth-of-type(2) form button{
 #banner-stroke{
 	background-color: #f1e6d9;
 	margin: 0;
-	padding: 8px 16px;
+	padding: 0.5em 1em;
 }
 
 #banner-stroke a{
@@ -379,12 +381,12 @@ header #content-header div:nth-of-type(2) form button{
 
 .homepage > section:nth-of-type(3) ul li{
 	list-style: none;
-	margin: 5px 5px;
+	margin: 0.313em 0.313em;
 }
 
 .homepage > section:nth-of-type(3) ul li a{
 	display: block;
-	padding: 10px 0;
+	padding: 0.625em 0;
 	border: 1px solid #000;
 	color: #000;
 	text-decoration: none;
@@ -400,7 +402,7 @@ header #content-header div:nth-of-type(2) form button{
 /* Trending */
 
 main{
-	padding: 20px 16px;
+	padding: 1.25em 1em;
 }
 
 .homepage > main{
@@ -414,7 +416,7 @@ main{
 
 .homepage > main a{
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 1.25em;
 }
 
 .homepage > main div{
@@ -441,10 +443,10 @@ main{
 	width: 240px;
 }
 
-.homepage > main article p{
+.homepage > main article h3{
 	position: absolute;
-	bottom: 12px;
-	left: 12px;
+	bottom: 0.750em;
+	left: 0.750em;
 	color: #fff;
 	margin: 0;
 	font-weight: bold;
@@ -465,7 +467,7 @@ main{
 }
 
 .overview main a{
-	padding: 10px 16px;
+	padding: 0.625em 1em;
 	display: block;
 	border: 1px solid #000;
 	text-align: center;
@@ -480,11 +482,11 @@ main{
 .overview main div:nth-of-type(2) div:nth-of-type(1) p:first-of-type{
 	font-size: 0.75em;
 	text-align: center;
-	margin: 0 0 20px 0;
+	margin: 0 0 1.25em 0;
 }
 
 .overview main div:nth-of-type(2) div:nth-of-type(2){
-	margin: 20px 0 0 0;
+	margin: 1.25em 0 0 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 10px;
@@ -517,6 +519,13 @@ main{
 	transition: transform .2s;
 }
 
+.homepage > section:nth-of-type(4) div article h3{
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.81em;
+	font-weight: 700;
+}
+
 .homepage > section:nth-of-type(4) div article:hover{
 	transform: scale(1.02);
 }
@@ -530,7 +539,7 @@ main{
 
 .homepage > section:nth-of-type(5){
 	z-index: 1;
-	margin-top: -175px;
+	margin-top: -10.938em;
 }
 
 .homepage > section:nth-of-type(5) > img{
@@ -551,7 +560,7 @@ main{
 .homepage > section:nth-of-type(5) > a{
 	text-align: center;
 	display: block;
-	padding: 10px 16px;
+	padding: 0.625em 1em;
 	background-color: #000000;
 	color: #fff;
 	max-width: 200px;
@@ -574,7 +583,7 @@ footer{
 footer > section:nth-of-type(2) li span{
 	background-image: url('../images/checked.png');
 	background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-size: 1.25em 1.25em;
     width: 20px; 
     height: 20px;
     content:"";
@@ -612,27 +621,27 @@ footer > section:nth-of-type(4) ul{
 	list-style: none;
 }
 
-footer > section:nth-of-type(4) h4{
+footer > section:nth-of-type(4) h3{
 	position: relative;
 	list-style: none;
-	padding: 15px 0 0 0;
+	padding: 0.938em 0 0 0;
 	width: 100%;
 	font-weight: 900;
 }
 
-footer > section:nth-of-type(4) h4:hover{
+footer > section:nth-of-type(4) h3:hover{
 	cursor: pointer;
 }
 
 footer > section:nth-of-type(4) div ul li{
 	color: #737373;
-	padding: 15px 0 15px 0;
+	padding: 0.938em 0 0.938em 0;
 }
 
-footer > section:nth-of-type(4) h4 span{
+footer > section:nth-of-type(4) h3 span{
 	background-image: url('../images/arrow-down-sign.png');
 	background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-size: 1.25em 1.25em;
     width: 20px; 
     height: 20px;
     content:"";
@@ -666,7 +675,7 @@ footer p{
 }
 
 footer > section:nth-child(1) > p{
-	margin-left: 20px;
+	margin-left: 1.25em;
 }
 
 footer > section:nth-child(1) > p::before{
@@ -676,7 +685,7 @@ footer > section:nth-child(1) > p::before{
     width: 16px;
     height: 16px;
     background-repeat: no-repeat;
-    background-size: 16px 16px;
+    background-size: 1em 1em;
     background-image: url(../images/checked.png);
 }	
 
@@ -703,7 +712,7 @@ footer > section:nth-child(1) > p::before{
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding: 300px 0 0 0;
+		padding: 18.75em 0 0 0;
 	}
 
 	#banner-stroke{
@@ -712,7 +721,7 @@ footer > section:nth-child(1) > p::before{
 
 	#banner > div{
 		position: absolute;
-		bottom: 40px;
+		bottom: 2.5em;
 	}
 
 	#banner::after{
@@ -736,17 +745,17 @@ footer > section:nth-child(1) > p::before{
   	/* Main */
 
 	.homepage section{
-  		padding: 40px 24px;
+  		padding: 2.5em 1.5em;
   	}
 
   	.homepage main{
-  		padding: 40px 24px;
+  		padding: 2.5em 1.5em;
   	}
 
   	.homepage main div{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-column-gap: 20px;
+		grid-column-gap: 1.25em;
 		margin-right: 0;
 		overflow: hidden;
   	}
@@ -784,7 +793,7 @@ footer > section:nth-child(1) > p::before{
   	.homepage > section:nth-of-type(4) div{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-column-gap: 20px;
+		grid-column-gap: 1.25em;
   	}
 
   	.homepage > section:nth-of-type(4) div article{
@@ -797,8 +806,8 @@ footer > section:nth-child(1) > p::before{
 	}
 
 	.overview section:nth-of-type(2){
-		margin: 0 60px;
-		padding: 20px 0;
+		margin: 0 3.750em;
+		padding: 1.25em 0;
 	}
 
 	.overview section:nth-of-type(2) a{
@@ -816,22 +825,22 @@ footer > section:nth-child(1) > p::before{
 	}
 
 	.overview section:nth-of-type(2) span{
-		margin: 0 10px;
+		margin: 0 0.625em;
 	}
 
 	.overview main{
 		display: grid;
 		padding: 0;
 		grid-template-columns: 1fr 4fr;
-		margin: 0 60px 0 60px;
+		margin: 0 3.750em 0 3.750em;
 	}
 
 	.overview main div:nth-of-type(2){
-		margin: 0 0 0 50px;
+		margin: 0 0 0 3.125em;
 	}
 
 	.overview main div:nth-of-type(2) div:nth-of-type(1) p:first-of-type {
-    	margin: 0 0 30px 0;
+    	margin: 0 0 1.875em 0;
     }
 
 	.overview main div:nth-of-type(2) div a{
@@ -847,7 +856,7 @@ footer > section:nth-child(1) > p::before{
 	.overview main a{
 		border: none;
 		text-align: left;
-		padding: 16px 0 16px 16px;
+		padding: 1em 0 1em 1em;
 		font-weight: bold;
 		font-size: 0.8125em;
 	}
@@ -858,12 +867,12 @@ footer > section:nth-child(1) > p::before{
 
 	.overview  main h2{
 		font-size: 1.2em;
-		margin-top: 16px;
+		margin-top: 1em;
 	}
 
 	.overview  main h3{
 		font-size: 1.2em;
-		padding: 16px 0 16px 0;
+		padding: 1em 0 1em 0;
 		border-top: 1px solid #e1ddd9;
 		margin: 0;
 	}
@@ -880,15 +889,15 @@ footer > section:nth-child(1) > p::before{
 
 	.overview footer section:nth-of-type(2){
 		margin: 0;
-		padding: 24px;
+		padding: 1.5em;
 	}
 
 	.overview footer section:nth-of-type(3){
-		padding: 24px;
+		padding: 1.5em;
 	}
 
 	.overview footer section:nth-of-type(4){
-		padding: 24px;
+		padding: 1.5em;
 	}
 
 }
@@ -900,7 +909,7 @@ footer > section:nth-child(1) > p::before{
 	header div#content-header{
 		display: grid;
 		grid-template-columns: 1fr 2fr 1fr;
-		padding: 17px 10px;
+		padding: 1.063em 0.625em;
 	}
 
 	header #content-header a:first-child{
@@ -935,7 +944,7 @@ footer > section:nth-child(1) > p::before{
 		position: relative;
 		background-color: transparent;
 		height: auto;
-		padding: 15px;
+		padding: 0.938em;
 	}
 
 	.fullscreen-navigation header{
@@ -979,7 +988,7 @@ footer > section:nth-child(1) > p::before{
 	header nav ul{
 		margin: 0;
 		display: flex;
-		padding: 20px 0;
+		padding: 1.25em 0;
 		justify-content: space-between;
 	}
 
@@ -994,7 +1003,7 @@ footer > section:nth-child(1) > p::before{
 	.overview main div:nth-of-type(2) div:nth-of-type(2){
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		column-gap: 10px;
+		column-gap: 0.625em;
 	}
 
 	/* Categorieen */
@@ -1008,17 +1017,17 @@ footer > section:nth-child(1) > p::before{
 	footer > section:nth-of-type(1){
 		display: flex;
     	justify-content: space-between;
- 		padding: 20px 44px;
+ 		padding: 1.25em 2.75em;
 	}
 
 	footer > section:nth-of-type(1) > p{
 		position: relative;
-		margin-right: 40px;
+		margin-right: 2.5em;
 		margin-left: 0;
 	}
 
 	footer > section:nth-of-type(1) > p::before{
-    	left: -20px;
+    	left: -1.25em;
 	}	
 
 	footer > section:nth-of-type(1) > p:last-of-type{
@@ -1034,7 +1043,7 @@ footer > section:nth-child(1) > p::before{
 		margin: 0 auto;
 	}
 
-	footer > section:nth-of-type(4) h4{
+	footer > section:nth-of-type(4) h3{
 		cursor: auto!important;
 	}
 
@@ -1047,7 +1056,7 @@ footer > section:nth-child(1) > p::before{
 	}
 
 	footer > section:nth-of-type(4) div ul li{
-		padding: 8px 0;
+		padding: 1.250em 0;
 	}
 
 }
@@ -1055,11 +1064,11 @@ footer > section:nth-child(1) > p::before{
 @media screen and (min-device-width: 1200px) {
 
 	.homepage section{
-  		padding: 40px 24px;
+  		padding: 2.5em 1.5em;
   	}
 
   	.homepage main{
-  		padding: 40px 24px;
+  		padding: 2.5em 1.5em;
   	}
 	
 }
