@@ -927,7 +927,7 @@ footer > section:nth-child(1) > p::before{
     	margin: auto .5rem;
 	}
 
-	header #content-header div:nth-of-type(2) div{
+	header #content-header div:nth-of-type(2) button:first-child{
 		display: none;
 	}
 
